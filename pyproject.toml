@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "social-media-manager-assistant"
+version = "0.1.0"
+description = "This project implements a social media manager assistant with LLM capabilities. It generates new posts based on previous posts and given topics, maintaining the voice and style of different user profiles."
+authors = ["Ernie Fontes <erniefontes@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
