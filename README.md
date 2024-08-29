@@ -32,7 +32,7 @@ This project implements a social media manager assistant with LLM capabilities. 
 ## Project Structure
 ```
 social_media_assistant/
-├── app/
+├── social-media-manager-assistant/
 │   ├── __init__.py
 │   ├── main.py
 │   ├── llm_handler.py
